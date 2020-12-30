@@ -140,15 +140,22 @@ select {
 }
 
 @media only screen and (max-width: 768px) {
+    form input, form button{
+        font-size: 1rem;
+    }
     .todo-input{
-        width: 15rem;
+        width: 10rem;
     }
 
     h1{
-        font-size: 2.5rem;
+        font-size: 1.8rem;
     }
 
     .todo-item{
-        font-size: 1.3rem;
+        font-size: 1rem;
+    }
+
+    select{
+        font-size: 0.5rem;
     }
 }
