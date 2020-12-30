@@ -142,6 +142,11 @@ select {
 }
 
 @media only screen and (max-width: 768px) {
+    header{
+        margin-top: 2rem;
+        min-height: 5vh;
+    }
+
     form input, form button{
         font-size: 1rem;
         border: none;
