@@ -13,6 +13,7 @@ body{
 
 header{
     font-size: 1.5rem;
+    border-radius: 0%;
 }
 
 header, form {
