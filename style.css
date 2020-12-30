@@ -34,6 +34,7 @@ form button {
     background: white;
     cursor: pointer;
     transition: all 0.3s ease;
+
 }
 
 form button:hover {
@@ -150,6 +151,17 @@ select {
         border-top-right-radius: 0%;
         border-bottom-right-radius: 0%;
     }
+
+    form button {
+        color: white;
+        background: #70af85;
+    }
+    
+    form button:hover {
+        background: white;
+        color: #70af85;
+    }
+
     .todo-input{
         width: 10rem;
     }
